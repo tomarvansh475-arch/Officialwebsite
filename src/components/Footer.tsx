@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Facebook, Twitter, Linkedin, Instagram, ArrowUp, Send, Heart } from "lucide-react";
 import NgoLogo from "./NgoLogo";
-import { dbInstance } from "../lib/db.ts";
+import { dbInstance } from "../lib/db";
 
 export default function Footer() {
   const [content, setContent] = useState(dbInstance.getSiteContent());
