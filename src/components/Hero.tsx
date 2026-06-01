@@ -1,6 +1,6 @@
 import React from "react";
 import { Trees, Heart, Sparkles, ShieldCheck } from "lucide-react";
-import { dbInstance } from "../lib/db";
+import { dbInstance } from "../lib/db.ts";
 
 export default function Hero() {
   const content = dbInstance.getSiteContent();
