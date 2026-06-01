@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { dbInstance } from "../lib/db";
+import { dbInstance } from "../lib/db.ts";
 
 export default function NgoLogo({ className = "w-16 h-16" }: { className?: string }) {
   const [content, setContent] = useState(dbInstance.getSiteContent());
