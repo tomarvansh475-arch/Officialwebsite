@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { dbInstance } from "../lib/db.ts";
+import { dbInstance } from "../lib/db";
 
 export default function Partners() {
   const [content, setContent] = useState(dbInstance.getSiteContent());
