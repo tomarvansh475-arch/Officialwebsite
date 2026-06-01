@@ -1,6 +1,6 @@
 import React from "react";
 import * as Lucide from "lucide-react";
-import { dbInstance } from "../lib/db.ts";
+import { dbInstance } from "../lib/db";
 
 // Helper function to dynamically resolve icons from Lucide-react objects safely
 const renderPillarIcon = (name: string, className = "w-8 h-8 text-ngo-dark") => {
