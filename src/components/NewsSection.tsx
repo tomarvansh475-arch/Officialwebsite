@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Calendar, Eye, ArrowRight, X, Clock, Share2 } from "lucide-react";
-import { dbInstance } from "../lib/db.ts";
+import { dbInstance } from "../lib/db";
 import { NewsItem } from "../types";
 
 export default function NewsSection() {
