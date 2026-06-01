@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Devanagari:wght@100..900&family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-hindi: "Noto Serif Devanagari", "Noto Sans Devanagari", serif;
+  
+  --color-ngo-forest: #0f4d24;
+  --color-ngo-cream: #efe7d6;
+  --color-ngo-beige: #faf7f0;
+  --color-ngo-dark: #1c1917;
+  --color-ngo-dark-hover: #292524;
+  
+  --animate-spin-slow: spin 15s linear infinite;
+}
+
+/* Custom CSS overrides to give the site premium editorial elegance */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style the scrollbar for custom design consistency */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #efe7d6;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f4d24;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d3b1b;
+}
+
+/* Elegant Leaf Divider with pseudo-lines */
+.leaf-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.leaf-divider::before,
+.leaf-divider::after {
+  content: "";
+  height: 1.5px;
+  background: linear-gradient(to right, transparent, #0f4d24, transparent);
+  flex-grow: 1;
+  opacity: 0.3;
+}
