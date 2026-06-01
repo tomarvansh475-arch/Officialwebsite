@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Sparkles, Shield, Heart, Award, Leaf } from "lucide-react";
-import { dbInstance } from "../lib/db";
+import { dbInstance } from "../lib/db.ts";
 
 export default function OrganizationIdentity() {
   const [content, setContent] = useState(dbInstance.getSiteContent());
