@@ -3,7 +3,7 @@ import {
   User, Phone, Mail, FileText, CheckCircle, ShieldCheck, Download, 
   Award, Camera, Calendar, Briefcase, MapPin, AlertCircle, Check, IdCard, Printer 
 } from "lucide-react";
-import { dbInstance, Volunteer } from "../lib/db";
+import { dbInstance, Volunteer } from "../lib/db.ts";
 import { generatePvpMembershipPDF } from "../lib/pdfGenerator";
 
 export default function JoinForm() {
