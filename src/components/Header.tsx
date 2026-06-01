@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NgoLogo from "./NgoLogo";
-import { dbInstance } from "../lib/db";
+import { dbInstance } from "../lib/db.ts";
 
 interface HeaderProps {
   activeSection: string;
