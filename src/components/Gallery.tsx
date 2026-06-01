@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Maximize2, X, ChevronLeft, ChevronRight, Image as ImageIcon } from "lucide-react";
-import { dbInstance } from "../lib/db.ts";
+import { dbInstance } from "../lib/db";
 import { GalleryImage } from "../types";
 
 export default function Gallery() {
