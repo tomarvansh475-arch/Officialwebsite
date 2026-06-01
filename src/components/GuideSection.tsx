@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import { GraduationCap, Award, Compass, Heart } from "lucide-react";
-import { dbInstance } from "../lib/db.ts";
+import { dbInstance } from "../lib/db";
 
 export default function GuideSection() {
   const [guides, setGuides] = useState(dbInstance.getGuides());
