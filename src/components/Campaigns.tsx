@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Trees, Eye, CheckCircle, Flame, Calendar, Award } from "lucide-react";
-import { dbInstance, UserProfile } from "../lib/db.ts";
+import { dbInstance, UserProfile } from "../lib/db";
 import { Campaign } from "../types";
 
 export default function Campaigns() {
