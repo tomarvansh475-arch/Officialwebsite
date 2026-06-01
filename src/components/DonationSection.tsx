@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { CreditCard, Smartphone, Check, Heart, Shield, Copy, Sparkles, QrCode, Download, Printer, Mail, History, Trash2, Award, Landmark, AlertCircle } from "lucide-react";
 import { DONATION_OPTIONS } from "../data";
-import { dbInstance, UserProfile, DonationRecord } from "../lib/db.ts";
+import { dbInstance, UserProfile, DonationRecord } from "../lib/db";
 
 export default function DonationSection() {
   const [selectedPreset, setSelectedPreset] = useState<number | null>(501);
