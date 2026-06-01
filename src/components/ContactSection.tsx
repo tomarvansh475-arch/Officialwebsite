@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Mail, Send, CheckCircle2, ShieldAlert } from "lucide-react";
-import { dbInstance } from "../lib/db";
+import { dbInstance } from "../lib/db.ts";
 
 export default function ContactSection() {
   const content = dbInstance.getSiteContent();
