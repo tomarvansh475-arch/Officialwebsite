@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CheckCircle2, Award, Gift, Calendar, Navigation, ShieldAlert } from "lucide-react";
-import { dbInstance } from "../lib/db";
+import { dbInstance } from "../lib/db.ts";
 
 export default function About() {
   const [content, setContent] = useState(dbInstance.getSiteContent());
